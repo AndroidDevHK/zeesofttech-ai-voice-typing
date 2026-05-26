@@ -1,4 +1,4 @@
-# 🎙️ Multilingual AI Voice Keyboard & Standalone Writer App
+# 🎙️ AI Voice Keyboard & Writer
 
 <p align="center">
   <img src="./icon.png" alt="AI Voice Keyboard Logo" width="140" height="140" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
@@ -14,21 +14,20 @@
   <img src="https://img.shields.io/badge/Downloads-1K%2B-blue?style=for-the-badge&logo=google-play&color=4CAF50" alt="1K+ Downloads on Google Play" />
 </p>
 
-This is a premium Android application that I developed during my time at **Zeesoft Tech**.
+This is a premium, high-performance Android keyboard application that I architected and developed **completely from scratch** during my time at **Zeesoft Tech**. 
 
-One important detail to clarify: **this is not just a standard typing keyboard.** While it integrates a powerful system-wide Input Method Editor (IME) for seamless typing across all Android apps (like WhatsApp, Gmail, LinkedIn, and Instagram), it also acts as a **comprehensive standalone AI Writing Assistant and Multilingual Translation Hub**. 
+Rather than building a standard keyboard, I engineered this product to put the power of advanced Large Language Models (LLMs) directly into the user's typing interface. It operates as a fully integrated **AI Writing Assistant and Multilingual Translator** that works seamlessly inside any text box across Android—including WhatsApp, Gmail, LinkedIn, Instagram, and more. 
 
-With **over 1,000+ active downloads** on the Google Play Store, this app puts a powerful Large Language Model (LLM) assistant directly in the user's typing pocket to help them write faster, smarter, and with total confidence.
+With **over 1,000+ active downloads** on the Google Play Store, the application represents a powerful leap forward in mobile productivity and smart writing.
 
 ## 👨‍💻 My Role & Technical Contributions
 
-As the **Lead Android Developer**, I solely architected and developed this entire application **completely from scratch**. I was responsible for the end-to-end product lifecycle, including:
+As the **Lead Android Developer**, I solely architected and developed the entire application from the ground up. My key technical contributions included:
 
-* **🏗️ Full-Stack Android Architecture:** Architected the entire codebase from the ground up, including the custom Input Method Editor (IME) service layer for the keyboard and the standalone multi-module companion application.
-* **🎨 Modern UI/UX Implementation (Material 3):** Built the entire user interface following Google's **Material 3 / Material You** design specifications, featuring dynamic theme adaptations, fluid transitions, and customizable layouts.
-* **⌨️ Advanced Keyboard Development:** Programmed the system-wide custom keyboard extension from scratch, optimizing keypress response times, buffer processing, and layout switching to ensure high-performance typing.
-* **🧠 LLM & AI Feature Integrations:** Developed and integrated the entire AI writing toolkit, connecting advanced Large Language Models (LLM) for real-time grammar checking, smart tone re-writing, automated text-to-poetry generation, and context completions.
-* **📴 Offline Engines & Translators:** Built the full translation engine supporting real-time keyboard and standalone conversational translations for over 100+ global languages, including offline dictionary and audio dictation tools.
+* **🏗️ Custom IME Keyboard Architecture:** Programmed and optimized the core Android Input Method Editor (IME) service from scratch, ensuring extremely low latency, smooth key buffering, and fast keyboard layout switching.
+* **🧠 LLM & AI Writing Pipeline:** Developed the client-side integration of Large Language Models (LLM) to perform real-time, context-aware text processing (such as on-the-fly grammar scanning, summarization, and tone shifting) directly inside the typing thread.
+* **🌐 Multilingual Translation Engine:** Built the real-time keyboard translation module, supporting direct text conversion into **100+ global languages** instantly before sending.
+* **🎨 Material 3 Theme Engine:** Designed and implemented a modern visual interface following Google's **Material 3 / Material You** specifications, featuring dynamic theme customization options, fluid transition animations, and custom keyboard styles.
 
 ## 🔒 Code Sharing & Intellectual Property Notice
 
@@ -39,49 +38,26 @@ I have created this repository to showcase:
 * The feature set and user experience workflows.
 * The architectural design and product scope of what I built.
 
-## 🏗️ Architecture: A Dual-Purpose Solution
+## 🚀 The AI Features I Developed
 
-To provide the best user experience, I designed the product as two integrated components:
+### ✍️ Professional AI Writing & Editing Suite
+I built a complete, high-performance writing toolkit that executes deep text analysis natively as the user types:
+* **AI Grammar & Spell Checker:** Programmed a deep-scan grammar engine that corrects complex syntax errors, punctuation, and typos in real-time.
+* **Smart Paraphrasing Tool:** Developed an AI rewriter allowing users to instantly restructure sentences to be more professional, friendly, or concise.
+* **Text Lengthener (Continue Writing):** Created a smart context-continuation feature that analyzes typed text and generates the next few sentences to eliminate writer's block.
+* **AI Text Summarizer:** Added a keyboard utility that condenses long paragraphs or articles into concise bullet points.
+* **Synonym Finder & AI Dictionary:** Integrated a search tool providing contextual definitions and synonyms to enhance vocabulary impact.
 
-### 1️⃣ The Main Standalone Companion App
-The main app serves as a centralized hub for productivity. It includes:
-* **The Translation Center:** A standalone screen to translate texts and conversations between 40+ languages.
-* **The Audio Hub:** A built-in high-quality dictation and sound-recording application to save, manage, and playback voice notes, meetings, or lectures.
-* **The Customization Suite:** An interactive panel where users can preview, configure, and install custom Material 3 themes and keyboard skins.
-* **Settings & Custom Dictation:** A management screen to configure offline translation packages, voice speed, and dictionary terms.
+### 🌐 Translation & Voice Dictation Hub
+I engineered a highly reliable communication center to break down language barriers:
+* **Real-Time Keyboard Translator:** Automatically translates typed text on the fly into **100+ languages** (including Spanish, French, Arabic, Hindi, and Chinese) directly inside any input field.
+* **AI Voice-to-Text Dictation:** Built a high-precision voice typing engine that accurately understands varying regional accents and continuous natural speech on the go.
 
-### 2️⃣ The System-Wide Keyboard Service (IME)
-A highly optimized Android Input Method service that integrates smoothly with any app on the device (WhatsApp, Gmail, Chrome, etc.). Users can switch to this keyboard to access voice typing, instant translations, and custom keyboard styles on the fly.
-
-## ✍️ Professional AI Writing & Editing Features I Built
-
-### 🔍 Deep-Scan Grammar & Spell Checker
-* Engineered a real-time syntax engine that scans inputs on the fly.
-* Instantly highlights and corrects complex punctuation, spelling, and grammar mistakes, helping users write error-free text directly inside their typing flow.
-
-### 🔄 Smart Tone & Paraphrasing Tool
-* Built an AI sentence rewriter capable of switching text tone instantly.
-* Users can adapt their messages from professional and friendly to concise or urgent with a single tap.
-
-### 📝 Smart Text Lengthener (Continue Writing)
-* Integrated a smart completion feature that analyzes typed context and automatically generates the next few sentences to help users overcome writer's block.
-
-### 📊 AI Text Summarizer & synonym Finder
-* Added direct utilities to condense long messages or articles into key points.
-* Integrated an AI dictionary to provide contextual synonyms and definitions instantly to make writing more impactful.
-
-## ⌨️ Core Keyboard Features I Recreated
-
-### 🎙️ AI Voice-to-Text Dictation
-* Built a high-precision voice recognition system that understands various dialects, regional accents, and continuous natural speech in real-time.
-
-### 🌐 Real-Time Keyboard Translator
-* Developed a system-wide text translator that automatically converts typed text into **100+ global languages** instantly before sending.
-
-### 🎨 Custom Creative Themes & Emoticon Engines
-* Upgraded the appearance suite with fully responsive **Material 3 / Material You** skins that adapt automatically to the system colors.
-* Added a smart **Emojifier tool** that analyzes the emotional tone of typed text and dynamically suggests or inserts matching emojis.
-* Integrated **Versify (Text-to-Poetry)**, a creative utility that turns standard sentences into elegant rhyming verses or poetry for special messages.
+### 🎨 Creative Keyboard Personalization
+I integrated fun, creative features to make mobile communication stand out:
+* **Tone Adjuster:** Added a quick tone-switching utility that morphs the attitude of typed text (e.g., from "Urgent" to "Polite") in one tap.
+* **Smart Emojifier:** Developed an emotion-analyzer that matches the emotional tone of written text and suggests the perfect emojis.
+* **Versify (Text-to-Poetry):** Built a creative module that automatically turns plain sentences into beautiful rhyming poems or verses.
 
 ## 🌍 Supported Languages
 
@@ -95,12 +71,12 @@ The app supports 40+ major global languages and regional dialects:
 * **German** (Sprache zu Text)
 * **Japanese** (音声入力キーボード)
 * **Urdu** (اردو وائس ٹائپنگ)
-* **Bengali** (বাংলা ভয়েস টাইপিং)
+* **Bengali** (বাংলা ভয়েস টাইピング)
 * ...and many more!
 
 ## 📱 App Screenshots
 
-Here is a look at the final user interface, standalone companion utility screens, and translation tools that I built:
+Here is a look at the final user interface, custom keyboard styles, and AI writing modules that I built:
 
 <p align="center">
   <img src="./screenshots/screenshot_1.png" width="220" alt="App Screen" style="border-radius: 8px; margin: 5px;" />
