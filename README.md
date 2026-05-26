@@ -1,7 +1,7 @@
-# 🎙️ Multilingual AI Voice Keyboard & Writer & Standalone Translator App
+# 🎙️ Multilingual AI Voice Keyboard & Standalone Writer App
 
 <p align="center">
-  <img src="./icon.png" alt="AI Voice Keyboard & Writer Logo" width="140" height="140" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+  <img src="./icon.png" alt="AI Voice Keyboard Logo" width="140" height="140" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
 </p>
 
 <p align="center">
@@ -16,9 +16,9 @@
 
 This is a premium Android application that I developed during my time at **Zeesoft Tech**.
 
-One important detail to clarify: **this is not just a custom keyboard extension.** While it integrates a powerful system-wide IME (Input Method Editor) keyboard for typing anywhere on Android, it also acts as a **comprehensive standalone utility and productivity app**. The main app houses a full suite of tools, including an offline Translation Center, a professional Audio Recorder, Voice Search engine, and an interactive Theme Customizer.
+One important detail to clarify: **this is not just a standard typing keyboard.** While it integrates a powerful system-wide Input Method Editor (IME) for seamless typing across all Android apps (like WhatsApp, Gmail, LinkedIn, and Instagram), it also acts as a **comprehensive standalone AI Writing Assistant and Multilingual Translation Hub**. 
 
-With **over 50K+ active downloads** on the Google Play Store, it serves a global user base looking for seamless mobile writing and translation workflows.
+With **over 50,000+ active downloads** on the Google Play Store, this app puts a powerful Large Language Model (LLM) assistant directly in the user's typing pocket to help them write faster, smarter, and with total confidence.
 
 ## 👨‍💻 My Role & Technical Contributions
 
@@ -51,31 +51,35 @@ The main app serves as a centralized hub for productivity. It includes:
 ### 2️⃣ The System-Wide Keyboard Service (IME)
 A highly optimized Android Input Method service that integrates smoothly with any app on the device (WhatsApp, Gmail, Chrome, etc.). Users can switch to this keyboard to access voice typing, instant translations, and custom keyboard styles on the fly.
 
+## ✍️ Professional AI Writing & Editing Features I Built
+
+### 🔍 Deep-Scan Grammar & Spell Checker
+* Engineered a real-time syntax engine that scans inputs on the fly.
+* Instantly highlights and corrects complex punctuation, spelling, and grammar mistakes, helping users write error-free text directly inside their typing flow.
+
+### 🔄 Smart Tone & Paraphrasing Tool
+* Built an AI sentence rewriter capable of switching text tone instantly.
+* Users can adapt their messages from professional and friendly to concise or urgent with a single tap.
+
+### 📝 Smart Text Lengthener (Continue Writing)
+* Integrated a smart completion feature that analyzes typed context and automatically generates the next few sentences to help users overcome writer's block.
+
+### 📊 AI Text Summarizer & synonym Finder
+* Added direct utilities to condense long messages or articles into key points.
+* Integrated an AI dictionary to provide contextual synonyms and definitions instantly to make writing more impactful.
+
 ## ⌨️ Core Keyboard Features I Recreated
 
-### 🎙️ Real-Time Voice Typing (Speech-to-Text)
-The centerpiece of the keyboard itself. I built a highly responsive voice dictation engine where users can **simply speak and the app transcribes their words into text in real-time**. 
-* Supports instant voice transcription for a wide variety of languages and accents.
-* Features smart continuous dictation that won't cut off mid-sentence.
+### 🎙️ AI Voice-to-Text Dictation
+* Built a high-precision voice recognition system that understands various dialects, regional accents, and continuous natural speech in real-time.
 
-### 🎨 Custom Keyboard Themes & Personalization
-No more boring stock keyboards. I recreated the appearance suite to support a rich set of **custom theme styles** for the keyboard layout itself.
-* Modern layouts designed according to Google's **Material 3** specification.
-* Highly customizable colors, styles, and button borders to let users design their own ideal layout.
+### 🌐 Real-Time Keyboard Translator
+* Developed a system-wide text translator that automatically converts typed text into **100+ global languages** instantly before sending.
 
-### 📴 Direct On-Keyboard Offline Translation
-Users can type or speak in their native tongue and translate it on the fly directly inside their keyboard before sending, working completely offline without needing an active internet connection.
-
-### 🔍 Quick System Voice Search
-A smart shortcut keys layout allowing users to trigger fast voice search queries across YouTube, Google, Amazon, and Reddit directly from their active keyboard interface.
-
-## 📂 Standalone Companion App Features
-
-### ⏺️ Pro Audio Recorder Hub
-A built-in high-fidelity audio recorder to capture lectures, corporate meetings, and long voice notes with dedicated audio management options directly in the main companion application.
-
-### 📲 Standalone Offline Translation Center
-A dedicated translation workspace page in the main app to quickly type or voice-dictate conversations back and forth in 40+ major languages.
+### 🎨 Custom Creative Themes & Emoticon Engines
+* Upgraded the appearance suite with fully responsive **Material 3 / Material You** skins that adapt automatically to the system colors.
+* Added a smart **Emojifier tool** that analyzes the emotional tone of typed text and dynamically suggests or inserts matching emojis.
+* Integrated **Versify (Text-to-Poetry)**, a creative utility that turns standard sentences into elegant rhyming verses or poetry for special messages.
 
 ## 🌍 Supported Languages
 
@@ -117,7 +121,6 @@ Here is a look at the final user interface, standalone companion utility screens
 <p align="center">
   <img src="./screenshots/screenshot_10.png" width="220" alt="App Screen" style="border-radius: 8px; margin: 5px;" />
 </p>
-
 
 ## 🏢 Project Details
 * **Role:** Lead Developer (UI/UX Redesign & Feature Integration)
