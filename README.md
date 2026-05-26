@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Downloads-50K%2B-blue?style=for-the-badge&logo=google-play&color=4CAF50" alt="50K+ Downloads on Google Play" />
+  <img src="https://img.shields.io/badge/Downloads-1K%2B-blue?style=for-the-badge&logo=google-play&color=4CAF50" alt="1K+ Downloads on Google Play" />
 </p>
 
 This is a premium Android application that I developed during my time at **Zeesoft Tech**.
 
 One important detail to clarify: **this is not just a standard typing keyboard.** While it integrates a powerful system-wide Input Method Editor (IME) for seamless typing across all Android apps (like WhatsApp, Gmail, LinkedIn, and Instagram), it also acts as a **comprehensive standalone AI Writing Assistant and Multilingual Translation Hub**. 
 
-With **over 50,000+ active downloads** on the Google Play Store, this app puts a powerful Large Language Model (LLM) assistant directly in the user's typing pocket to help them write faster, smarter, and with total confidence.
+With **over 1,000+ active downloads** on the Google Play Store, this app puts a powerful Large Language Model (LLM) assistant directly in the user's typing pocket to help them write faster, smarter, and with total confidence.
 
 ## 👨‍💻 My Role & Technical Contributions
 
@@ -125,4 +125,4 @@ Here is a look at the final user interface, standalone companion utility screens
 ## 🏢 Project Details
 * **Role:** Lead Developer (UI/UX Redesign & Feature Integration)
 * **Company:** Zeesoft Tech
-* **Availability:** Available on the Google Play Store (**50K+ Downloads**), [**Download Now**](https://play.google.com/store/apps/details?id=com.aivoice.keyboard.voicetyping&hl=en)
+* **Availability:** Available on the Google Play Store (**1K+ Downloads**), [**Download Now**](https://play.google.com/store/apps/details?id=com.aivoice.keyboard.voicetyping&hl=en)
