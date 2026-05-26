@@ -22,11 +22,13 @@ With **over 1,000+ active downloads** on the Google Play Store, this app puts a 
 
 ## 👨‍💻 My Role & Technical Contributions
 
-As the **Lead Android Developer** on this project, I was responsible for taking the legacy codebase and completely revitalizing it. My key contributions included:
+As the **Lead Android Developer**, I solely architected and developed this entire application **completely from scratch**. I was responsible for the end-to-end product lifecycle, including:
 
-* **🎨 Complete UI/UX Redesign (Material 3):** Rebuilt the entire user interface from scratch, replacing legacy screens with Google's **Material 3 / Material You** design system. I implemented dynamic theme adaptations, smooth fluid transition animations, and customizable keyboard skins.
-* **⌨️ Redesign & Recreation of the Advanced Keyboard:** Fully re-engineered the core system-wide IME keyboard extension. I improved key responsiveness, latency, and layout structure to make typing more comfortable and fast.
-* **🛠️ Rich Feature Integrations:** Successfully introduced new modules into the standalone companion application, including the offline translation engine (supporting 40+ languages), the high-fidelity sound dictation audio recorder, and deep voice search API integrations.
+* **🏗️ Full-Stack Android Architecture:** Architected the entire codebase from the ground up, including the custom Input Method Editor (IME) service layer for the keyboard and the standalone multi-module companion application.
+* **🎨 Modern UI/UX Implementation (Material 3):** Built the entire user interface following Google's **Material 3 / Material You** design specifications, featuring dynamic theme adaptations, fluid transitions, and customizable layouts.
+* **⌨️ Advanced Keyboard Development:** Programmed the system-wide custom keyboard extension from scratch, optimizing keypress response times, buffer processing, and layout switching to ensure high-performance typing.
+* **🧠 LLM & AI Feature Integrations:** Developed and integrated the entire AI writing toolkit, connecting advanced Large Language Models (LLM) for real-time grammar checking, smart tone re-writing, automated text-to-poetry generation, and context completions.
+* **📴 Offline Engines & Translators:** Built the full translation engine supporting real-time keyboard and standalone conversational translations for over 100+ global languages, including offline dictionary and audio dictation tools.
 
 ## 🔒 Code Sharing & Intellectual Property Notice
 
@@ -123,6 +125,6 @@ Here is a look at the final user interface, standalone companion utility screens
 </p>
 
 ## 🏢 Project Details
-* **Role:** Lead Developer (UI/UX Redesign & Feature Integration)
+* **Role:** Lead Developer (Ground-up Architecture & Full-Stack Development)
 * **Company:** Zeesoft Tech
 * **Availability:** Available on the Google Play Store (**1K+ Downloads**), [**Download Now**](https://play.google.com/store/apps/details?id=com.aivoice.keyboard.voicetyping&hl=en)
